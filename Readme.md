@@ -1,7 +1,7 @@
 # Личный проект «Седона»
 
 * Студент: [Ило Нанава](https://up.htmlacademy.ru/htmlcss/30/user/1622695).
-* Наставник: `Неизвестно`.
+* Наставник: [Карина Карапетян] (https://htmlacademy.ru/profile/karinaweb).
 
 ---
 
