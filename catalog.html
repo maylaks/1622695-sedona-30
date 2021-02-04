@@ -32,34 +32,46 @@
   <main>
     <section>
       <h2 class="visually-hidden">Выбор услуг</h2>
-      <form action="#" method="get">
+      <form action="https://echo.htmlacademy.ru" method="get">
         <fieldset>
           <legend>инфраструктура:</legend>
-          <input type="checkbox" checked>Бассейн<br>
-          <input type="checkbox">Парковка<br>
-          <input type="checkbox">wi-fi
+          <label>
+            <input type="checkbox" checked>Бассейн
+          </label>
+          <label>
+            <input type="checkbox">Парковка
+          </label>
+          <label>
+            <input type="checkbox">wi-fi
+          </label>
         </fieldset>
 
         <fieldset>
           <legend>Тип жилья:</legend>
-          <input type="checkbox" checked>Гостиницы<br>
-          <input type="checkbox" checked>Мотель<br>
-          <input type="checkbox" checked>Апартаменты
+          <label>
+            <input type="checkbox" checked>Гостиницы
+          </label>
+          <label>
+            <input type="checkbox" checked>Мотель
+          </label>
+          <label>
+            <input type="checkbox" checked>Апартаменты
+          </label>
         </fieldset>
 
         <fieldset>
           <legend>стоимость в сутки р</legend>
           <div>
-            <label for="from"> от
-              <input type="text" placeholder="0" id="from" name="price">
+            <label> от
+              <input type="number" placeholder="0" name="price">
             </label>
-            <label for="to"> до
-              <input type="text" placeholder="3000" id="to" name="price">
+            <label> до
+              <input type="number" placeholder="3000" name="price">
             </label>
           </div>
-          <label>
-            <input type="range" checked>
-          </label>
+          <div>
+            <!-- тут будет ползунок-->
+          </div>
         </fieldset>
         <button type="submit">Показать</button>
       </form>
@@ -84,48 +96,60 @@
       <h2 class="visually-hidden">Список номеров</h2>
       <article>
         <img src="">
-        <h3>Amara Resort & Spa</h3>
-        <span>Гостиница</span>
-        <span>от 4000 р</span>
-        <a href="#">подробнее</a>
-        <a href="#">забронировать</a>
-        <ul>
-          <li>
-            <!-- тут должны быть звездочки, без понятия как их делать, нужна помощь (HELPSOS),поэтому сделаю пока просто списком)))-->
-          </li>
-          <li></li>
-          <li></li>
-          <li></li>
-        </ul>
-        <span>рейтинг:8,5</span>
+        <div>
+          <h3>Amara Resort & Spa</h3>
+          <span>Гостиница</span>
+          <span>от 4000 р</span>
+          <a href="#">подробнее</a>
+          <a href="#">забронировать</a>
+        </div>
+        <div>
+          <ul>
+            <li>
+              <!-- тут должны быть звездочки-->
+            </li>
+            <li></li>
+            <li></li>
+            <li></li>
+          </ul>
+          <span>рейтинг:8,5</span>
+        </div>
       </article>
-      <div>
+      <article>
         <img src="">
-        <h3>Desert Quail Inn</h3>
-        <span>Мотель</span>
-        <span>От 3000 р</span><br>
-        <a href="#">подробнее</a>
-        <a href="#">забронировать</a>
-        <ul>
-          <li></li>
-          <li></li>
-          <li></li>
-        </ul>
-        <span>рейтинг:8,9</span>
-      </div>
-      <div>
+        <div>
+          <h3>Desert Quail Inn</h3>
+          <span>Мотель</span>
+          <span>От 3000 р</span><br>
+          <a href="#">подробнее</a>
+          <a href="#">забронировать</a>
+        </div>
+        <div>
+          <ul>
+            <li></li>
+            <li></li>
+            <li></li>
+          </ul>
+          <span>рейтинг:8,9</span>
+        </div>
+      </article>
+      <article>
         <img src="">
-        <h3>Villas at Poco Diablo</h3>
-        <span>Апартаменты</span>
-        <span>От 2000 р</span><br>
-        <a href="#">подробнее</a>
-        <a href="#">забронировать</a>
-        <ul>
-          <li></li>
-          <li></li>
-        </ul>
-        <span>рейтинг:9,2</span>
-      </div>
+        <div>
+          <h3>Villas at Poco Diablo</h3>
+          <span>Апартаменты</span>
+          <span>От 2000 р</span><br>
+          <a href="#">подробнее</a>
+          <a href="#">забронировать</a>
+        </div>
+        <div>
+          <ul>
+            <li></li>
+            <li></li>
+          </ul>
+          <span>рейтинг:9,2</span>
+        </div>
+      </article>
     </section>
   </main>
   <footer>
