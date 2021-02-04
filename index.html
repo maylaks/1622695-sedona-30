@@ -24,7 +24,7 @@
           <a href="#">Карта штата</a>
         </li>
         <li>
-          <a href="#">Гостиницы</a>
+          <a href="catalog.html">Гостиницы</a>
         </li>
       </ul>
     </nav>
@@ -112,35 +112,39 @@
       <div class="booking-wrapper">
         <button class="booking-button" type="button">Поиск гостиницы в седоне</button>
         <form class="booking-form" action="https://echo.htmlacademy.ru" method="POST">
-          <div class="dates-wrapper">
 
-            <div class="check-in">
-              <label for="check-in">Дата заезда:</label>
-              <input type="text" placeholder="24 апреля 2017" id="check-in" name="check-in">
-            </div>
+          <div class="check-in">
+            <label for="check-in">Дата заезда:</label>
+            <input type="text" placeholder="24 апреля 2017" id="check-in" name="check-in">
+            <label>
+              <input type="button">
+            </label>
+          </div>
 
-            <div class="check-out">
-              <label for="check-out">Дата выезда:</label>
-              <input type="text" placeholder="4 июля 2017" id="check-out" name="check-out">
-            </div>
+          <div class="check-out">
+            <label for="check-out">Дата выезда:</label>
+            <input type="text" placeholder="4 июля 2017" id="check-out" name="check-out">
+            <label>
+              <input type="button">
+            </label>
+          </div>
 
-            <div class="persons">
-              <div class="adults">
-                <label for="adults">Взрослые:</label>
-                <div>
-                  <button type="button">-</button>
-                  <input type="text" placeholder="2" id="adults" name="adults">
-                  <button type="button">+</button>
-                </div>
+          <div class="persons">
+            <div class="adults">
+              <label for="adults">Взрослые:</label>
+              <div>
+                <button type="button">-</button>
+                <input type="number" placeholder="2" id="adults" name="adults">
+                <button type="button">+</button>
               </div>
+            </div>
 
-              <div class="child">
-                <label for="child">Дети:</label>
-                <div>
-                  <button type="button">-</button>
-                  <input type="text" placeholder="0" id="child" name="child">
-                  <button type="button">+</button>
-                </div>
+            <div class="child">
+              <label for="child">Дети:</label>
+              <div>
+                <button type="button">-</button>
+                <input type="number" placeholder="0" id="child" name="child">
+                <button type="button">+</button>
               </div>
             </div>
           </div>
