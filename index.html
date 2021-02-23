@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html class="page" lang="ru">
 
 <head>
   <meta charset="utf-8">
@@ -8,16 +8,18 @@
   <link rel="icon" href="img/icons/favicon.svg" type="image/svg+xml">
   <link rel="apple-touch-icon" href="img/icons/favicon-180.png">
   <link rel="manifest" href="manifest.webmanifest">
-
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/normalize.css"
+  <link href="https://fonts.googleapis.com/css2?family=PT+Sans&display=swap" rel="stylesheet">
 </head>
 
-<body>
-  <header>
-    <a href="">
+<body class="page-body">
+  <header class="main-header">
+    <a class="main-header-logo" href="">
       <img src="img/logo.png" width="150" height="100" alt="логотип Седоны">
     </a>
-    <nav>
-      <ul>
+    <nav class="main-nav">
+      <ul class="site-nav">
         <li>
           <a href="#">Информация</a>
         </li>
@@ -34,9 +36,9 @@
     </nav>
   </header>
 
-  <main>
+  <main class="container">
     <section class="main-title">
-      <h1>Сайт туристического городка Cедона</h1>
+      <h1 class="visually-hidden">Сайт туристического городка Cедона</h1>
       <img src="img/welcome.png" width="456.65" height="350.88" alt="добро пожаловать в штат Седона">
     </section>
 
@@ -44,7 +46,7 @@
       <h2>Седона — небольшой городок в Аризоне,
         заслуживающий большего!
       </h2>
-      <p>Рассмотрим 5 причин, по которым Седона круче, чем гранд каньон!</p>
+      <p class="sub-title-info">Рассмотрим 5 причин, по которым Седона круче, чем гранд каньон!</p>
     </section>
 
     <section class="about-city">
@@ -60,7 +62,7 @@
     <section>
       <h2 class="visually-hidden">Особенности</h2>
       <ul class="features">
-        <li class="motel"> 
+        <li class="motel">
           <h3 class="motel-title">Жилье</h3>
           <p class="motel-description">Рекомендуем пожить в настоящем мотеле, всё как в кино!</p>
         </li>
@@ -87,21 +89,21 @@
     </section>
     <section>
       <h2 class="visually-hidden">Особенности</h2>
-      <ul>
-        <li>
-          <h3>небольшая площадь</h3>
+      <ul class="comfortable">
+        <li class="square">
+          <h3 class="square-title">небольшая площадь</h3>
           <span>— №3 —</span>
-          <p>все достопримечательности находятся очень близко</p>
+          <p class="square-subtitle">все достопримечательности находятся очень близко</p>
         </li>
-        <li>
-          <h3>Красивая дорога</h3>
+        <li class="road">
+          <h3 class="road-title">Красивая дорога</h3>
           <span>— №4 —</span>
-          <p>ехать в седону из лас-вегаса совсем не скучно!</p>
+          <p class="road-subtitle">ехать в седону из лас-вегаса совсем не скучно!</p>
         </li>
-        <li>
-          <h3>Мало туристов</h3>
+        <li class="tourists">
+          <h3 class="tourists-title">Мало туристов</h3>
           <span>— №5 —</span>
-          <p>большинство едет в гранд каньон и толпится там</p>
+          <p class="tourists-subtitle">большинство едет в гранд каньон и толпится там</p>
         </li>
       </ul>
     </section>
@@ -109,8 +111,8 @@
     <section class="booking">
       <h2 class="visually-hidden">Забронировать гостиницу</h2>
       <div>
-        <p>Заинтересовались?</p>
-        <p>Укажите предполагаемые даты поездки, и мы покажем вам лучшие предложения гостиниц в седоне</p>
+        <p class="interested">Заинтересовались?</p>
+        <p class="interested-title">Укажите предполагаемые даты поездки, и мы покажем вам лучшие предложения гостиниц в седоне</p>
       </div>
 
       <div class="booking-wrapper">
@@ -163,27 +165,27 @@
     </section>
   </main>
 
-  <footer>
+  <footer class="main-footer">
     <div class="contacts">
       <a href="#">#visitsedona</a>
-      <a href="tel:+74956660166">тел: +7(495) 666-01-66</a>
+      <a class="contacts-phone" href="tel:+74956660166">тел: +7(495) 666-01-66</a>
     </div>
 
     <ul class="social">
       <li>
-        <a href="https://twitter.com/"></a>
+        <a class="social-button" href="https://twitter.com/"></a>
       </li>
       <li>
-        <a href="https://ru-ru.facebook.com/"></a>
+        <a class="social-button" href="https://ru-ru.facebook.com/"></a>
       </li>
       <li>
-        <a href="https://www.youtube.com/"></a>
+        <a class="social-button" href="https://www.youtube.com/"></a>
       </li>
     </ul>
 
     <div class="copyright">
       <span>Website by</span>
-      <a href="#">
+      <a class="logo-academy" href="#">
         <img src="img/logo-htmlacademy.svg" width="115" height="41" alt="логотип HTML-академии">
       </a>
     </div>

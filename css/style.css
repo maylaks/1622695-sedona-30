@@ -1,0 +1,161 @@
+/* variables */
+
+:root {
+  --basic-black: #000000;
+  --basic-white: #ffffff;
+  --bacic-dark: #EEEEEE;
+  --basic-blue: #81B3D2;
+  --basic-brown: #766357;
+
+  --special-blue: #669EC0;
+  --special-blue-press: #5496BD;
+
+  --special-brown: #604E43;
+  --special-brown-press: #503E33;
+}
+
+/* globlal */
+
+body {
+  min-width: 960px;
+  margin: 0;
+  padding: 0;
+  font-family: "PT Sans Narrow", Arial, sans-serif;
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: 700;
+  color: var(--basic-black);
+  text-transform: uppercase;
+  background-color: var(--basic-white);
+  background-image: url(../img/background-photo.jpg);
+  background-position: top-center;
+  background-repeat: no-repeat;
+}
+
+
+
+a {
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+
+/*  user-nav */
+
+.main-nav {
+  font-size: 14px;
+  line-height: 26px;
+  color: var(--basic-black);
+  background-color: transparent;
+}
+.site-nav {
+  list-style: none;
+}
+
+.site-nav a {
+  color: var(--basic-black);
+}
+
+.site-nav a:hover {
+color: var(--basic-blue);
+}
+
+.site-nav a:active {
+color: var(--basic-brown);
+}
+
+.site-nav a:focus {
+  color: var(--basic-black);
+}
+
+/* features */
+
+.features {
+  list-style:none
+}
+
+.motel, .food, .souvenir{
+  text-align: center;
+}
+
+.motel-title, .food-title, .souvenir-title{
+  font-size: 21px;
+  line-height: 21px;
+}
+
+.motel-description, .food-description , .souvenir-description {
+  font-size: 14px;
+  line-height: 21px;
+}
+
+
+.comfortable {
+  list-style:none;
+  background-color: var(--bacic-dark)
+}
+
+.square, .road, .tourists{
+  text-align: center;
+}
+
+.square-title, .road-title, .tourists-title{
+  font-size: 21px;
+  line-height: 21px;
+}
+
+.square-subtitle, .road-subtitle , .tourists-subtitle {
+  font-size: 14px;
+  line-height: 21px;
+}
+
+.downtown-info, .bridge-info {
+  background-color:var(--basic-blue);
+  text-align: center;
+}
+
+
+.visually-hidden {
+  display: none;
+}
+
+.interested  {
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 24px;
+  text-align: center;
+}
+
+.interested-title {
+  font-size: 30px;
+  line-height: 24px;
+  text-align: center;
+}
+
+.booking-button {
+  background-color:var(--basic-brown);
+  text-align: center;
+  height: 86px;
+  width: 568px;
+  color:var(--basic-white);
+  font-size: 21px;
+  line-height: 26px;
+  border: none;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.booking-button:hover {
+background-color:var(--special-brown);
+}
+
+.booking-button:focus {
+  background-color: var(--special-brown-press);
+}
+
+.contacts-phone {
+  color: inherit;
+}
