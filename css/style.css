@@ -17,22 +17,23 @@
 /* globlal */
 
 body {
-  min-width: 960px;
+  min-width: 1200px;
   margin: 0;
   padding: 0;
-  font-family: "PT Sans Narrow", Arial, sans-serif;
+  font-family: "PT Sans Narrow", "Arial", sans-serif;
   font-size: 14px;
   line-height: 24px;
   font-weight: 700;
   color: var(--basic-black);
   text-transform: uppercase;
+}
+
+.main-title{
   background-color: var(--basic-white);
   background-image: url(../img/background-photo.jpg);
   background-position: top-center;
   background-repeat: no-repeat;
 }
-
-
 
 a {
   text-decoration: none;
@@ -56,20 +57,24 @@ img {
   list-style: none;
 }
 
-.site-nav a {
+.nav-link {
   color: var(--basic-black);
 }
 
-.site-nav a:hover {
+.nav-link:hover {
 color: var(--basic-blue);
 }
 
-.site-nav a:active {
-color: var(--basic-brown);
+.nav-link a:active {
+opacity: 30%;
 }
 
-.site-nav a:focus {
+.nav-link a:focus {
   color: var(--basic-black);
+}
+
+.nav-link-active {
+  color: var(--basic-brown);
 }
 
 /* features */
@@ -78,16 +83,16 @@ color: var(--basic-brown);
   list-style:none
 }
 
-.motel, .food, .souvenir{
+.item{
   text-align: center;
 }
 
-.motel-title, .food-title, .souvenir-title{
+.motel, .food, .souvenir{
   font-size: 21px;
   line-height: 21px;
 }
 
-.motel-description, .food-description , .souvenir-description {
+.motel-title, .food-title, .souvenir-title {
   font-size: 14px;
   line-height: 21px;
 }
@@ -98,16 +103,16 @@ color: var(--basic-brown);
   background-color: var(--bacic-dark)
 }
 
-.square, .road, .tourists{
+.comfortable-item{
   text-align: center;
 }
 
-.square-title, .road-title, .tourists-title{
+.square, .road, .tourists{
   font-size: 21px;
   line-height: 21px;
 }
 
-.square-subtitle, .road-subtitle , .tourists-subtitle {
+.square-title, .road-title , .tourists-title {
   font-size: 14px;
   line-height: 21px;
 }
@@ -118,9 +123,6 @@ color: var(--basic-brown);
 }
 
 
-.visually-hidden {
-  display: none;
-}
 
 .interested  {
   font-weight: bold;
@@ -159,3 +161,4 @@ background-color:var(--special-brown);
 .contacts-phone {
   color: inherit;
 }
+
