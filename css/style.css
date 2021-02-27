@@ -17,6 +17,7 @@
 /* globlal */
 
 body {
+  background-color: var(--basic-white);
   min-width: 1200px;
   margin: 0;
   padding: 0;
@@ -29,7 +30,6 @@ body {
 }
 
 .main-title{
-  background-color: var(--basic-white);
   background-image: url(../img/background-photo.jpg);
   background-position: top-center;
   background-repeat: no-repeat;
@@ -73,46 +73,45 @@ opacity: 30%;
   color: var(--basic-black);
 }
 
-.nav-link-active {
+.active {
   color: var(--basic-brown);
 }
 
 /* features */
 
-.features {
+.features, .comfortable {
   list-style:none
 }
 
-.item{
+.list{
   text-align: center;
 }
 
-.motel, .food, .souvenir{
+.item{
   font-size: 21px;
   line-height: 21px;
 }
 
-.motel-title, .food-title, .souvenir-title {
+.item-title {
   font-size: 14px;
   line-height: 21px;
 }
 
 
 .comfortable {
-  list-style:none;
   background-color: var(--bacic-dark)
 }
 
-.comfortable-item{
+.items{
   text-align: center;
 }
 
-.square, .road, .tourists{
+.items-title{
   font-size: 21px;
   line-height: 21px;
 }
 
-.square-title, .road-title , .tourists-title {
+.items-subtitle {
   font-size: 14px;
   line-height: 21px;
 }
