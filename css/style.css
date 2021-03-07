@@ -83,7 +83,7 @@ opacity: 30%;
   list-style:none
 }
 
-.list{
+.features-item{
   text-align: center;
 }
 
@@ -161,3 +161,110 @@ background-color:var(--special-brown);
   color: inherit;
 }
 
+
+
+/*  catalog  */
+
+.background {
+  background-image: url(../img/catalog-background-photo.jpg);
+  background-position:top-center;
+  background-repeat: no-repeat;
+}
+
+legend {
+  font-size: 16px;
+  line-height: 21px;
+  color: var(--basic-white)
+}
+
+.show-button {
+  font-size: 14px;
+  line-height: 21px;
+  text-transform: uppercase;
+  background-color: transparent;
+  border-collapse: collapse;
+}
+
+.show-button:hover {
+  background-color: var(--basic-white);
+}
+
+.label {
+  font-size: 14px;
+  line-height: 21px;
+  color:var(--basic-white);
+}
+
+.text {
+  font-size: 21px;
+line-height: 26px;
+}
+
+h3 {
+  font-size: 21px;
+  line-height: 26px;
+  color:var(--basic-black);
+}
+
+h3:hover {
+  color:var(--basic-blue);
+}
+
+h3:active{
+  color:var(--basic-black);
+  opacity: 0.3;
+}
+
+span{
+  font-size: 14px;
+  line-height: 21px;
+}
+
+.detail {
+  color: var(--basic-white);
+  background-color: var(--basic-blue);
+  width: 110px;
+  height: 27px;
+  text-align: center;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 21px;
+  text-transform: uppercase;
+}
+
+.detail:hover {
+  background-color:var(--special-blue)
+}
+
+.detail:active {
+  background-color:var(--special-blue-press);
+  opacity: 0.3;
+}
+
+.booked {
+  background-color:var(--basic-brown);
+  color: var(--basic-white);
+  width: 142px;
+  height: 27px;
+  text-align: center;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 21px;
+  text-transform: uppercase;
+}
+
+.booked:hover {
+  background-color:var(--special-brown);
+}
+
+.booked:active {
+  background-color:var(--special-brown-press);
+  opacity: 0.3;
+}
+
+.rating {
+  background: #F2F2F2;
+  color: #666666;
+  font-size: 14px;
+  line-height: 21px;
+}
