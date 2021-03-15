@@ -38,11 +38,11 @@
   </header>
 
   <main class="container">
-    <section class="">
+    <section class="form">
       <h2 class="visually-hidden">Выбор услуг</h2>
-      <form class="background" action="https://echo.htmlacademy.ru" method="get">
+      <form action="https://echo.htmlacademy.ru" method="get">
         <fieldset>
-          <legend>инфраструктура:</legend>
+          <legend class="legend">инфраструктура:</legend>
           <label>
             <input type="checkbox" checked>Бассейн
           </label>
@@ -55,7 +55,7 @@
         </fieldset>
 
         <fieldset>
-          <legend>Тип жилья:</legend>
+          <legend class="legend">Тип жилья:</legend>
           <label>
             <input type="checkbox" checked>Гостиницы
           </label>
@@ -68,7 +68,7 @@
         </fieldset>
 
         <fieldset>
-          <legend>стоимость в сутки р</legend>
+          <legend class="legend">стоимость в сутки р</legend>
           <div>
             <label> от
               <input type="number" placeholder="0" name="price">
@@ -84,14 +84,14 @@
         <button class="show-button" type="submit">Показать</button>
       </form>
 
-      <section>
+      <section class="sort">
         <h2 class="visually-hidden">сортировка</h2>
-        <p class="text">найдено: 3</p>
+        <p class="sort-text">найдено: 3</p>
         <p>сортировка:</p>
-        <ul>
-          <li></li>
-          <li></li>
-          <li></li>
+        <ul class="sort-list">
+          <li><a class="sort-item sort-list-active" href="#">по цене</a></li>
+          <li><a class="sort-item" href="#">по типу</a></li>
+          <li><a class="sort-item" href="#">по рейтингу</a></li>
         </ul>
 
         <ul>
@@ -186,5 +186,4 @@
     </div>
   </footer>
 </body>
-
 </html>

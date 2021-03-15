@@ -165,13 +165,13 @@ background-color:var(--special-brown);
 
 /*  catalog  */
 
-.background {
+.form {
   background-image: url(../img/catalog-background-photo.jpg);
   background-position:top-center;
   background-repeat: no-repeat;
 }
 
-legend {
+.legend {
   font-size: 16px;
   line-height: 21px;
   color: var(--basic-white)
@@ -182,7 +182,7 @@ legend {
   line-height: 21px;
   text-transform: uppercase;
   background-color: transparent;
-  border-collapse: collapse;
+  border: collapse;
 }
 
 .show-button:hover {
@@ -195,7 +195,7 @@ legend {
   color:var(--basic-white);
 }
 
-.text {
+.sort-text {
   font-size: 21px;
 line-height: 26px;
 }
@@ -267,4 +267,30 @@ span{
   color: #666666;
   font-size: 14px;
   line-height: 21px;
+}
+
+.sort-list{
+  list-style: none;
+}
+
+.sort-item {
+  color:var(--basic-black);
+  opacity: 30%;
+  text-decoration: underline dotted;
+  font-size: 12px;
+  line-height: 18px;
+  text-transform: uppercase;
+}
+
+.sort-item:hover {
+color: var(--basic-blue);
+opacity: 100%;
+}
+
+.sort-list-active {
+  text-decoration: none;
+}
+
+.sort-item:focus {
+  color:var(--basic-black);
 }
